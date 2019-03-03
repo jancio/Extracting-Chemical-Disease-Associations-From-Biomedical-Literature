@@ -65,8 +65,8 @@ Check agreement between NE tags and matched concept types (on target PubMed) <br
 
 Scripts to extract chemical-disease pairs (CDPs) of interest from PubMed:
 * 	Find LINE NUMBERS of chemical-disease pair (CDP) relations in PubMed:
-     	*	(A) given chemical and disease concept IDs
-    	* 	(B) given the sentence number
+ 	*	(A) given chemical and disease concept IDs
+	*	(B) given the sentence number
 * 	Extract PubMed text and assigned tags around specified LINE NUMBERS 
 * 	Create array of strings: each string is 1 sentence from PubMed where each NE item was abstracted (by abstraction function) and concatenate without spaces
 * 	Then search for string STR in every sentence, uses the above array of sentences
