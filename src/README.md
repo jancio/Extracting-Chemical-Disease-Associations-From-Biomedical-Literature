@@ -56,7 +56,7 @@ Evaluate co-occurrences, loading data from saved calculated cooccurrences:
 * 	Examine chemical-disease relation type: print table & calculate what kind of relations are best found by which measure
 * 	Extract unique chemical-disease pairs (CDPs) from all top 10 rankings
 
-	Evaluate_Cooccurrences.ipynb
+		Evaluate_Cooccurrences.ipynb
 
 Check agreement between NE tags and matched concept types (on target PubMed) <br>
 & Check concepts without beginning (on target PubMed)
@@ -68,11 +68,10 @@ Scripts to extract chemical-disease pairs (CDPs) of interest from PubMed:
      	*	(A) given chemical and disease concept IDs
     	* 	(B) given the sentence number
 * 	Extract PubMed text and assigned tags around specified LINE NUMBERS 
-* 	Create array of strings: each string is 1 sentence from PubMed where each NE item was abstracted 
-*                         	 (by abstraction function) and concatenate without spaces
+* 	Create array of strings: each string is 1 sentence from PubMed where each NE item was abstracted (by abstraction function) and concatenate without spaces
 * 	Then search for string STR in every sentence, uses the above array of sentences
 
-	Find_CDPexampleSentences_PubMed.ipynb
+		Find_CDPexampleSentences_PubMed.ipynb
 
 
 
